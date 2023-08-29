@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Naomi Palavicini segurando um gato laranja e branco e fundo amarronzado"
+        />
+        <p>@palavicinin</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">Veja meu currículo</a>
+        </li>
+        <li>
+          <a href="#">Veja meu site</a>
+        </li>
+        <li>
+          <a href="#">Veja meu portifólio</a>
+        </li>
+        <li>
+          <a href="https://github.com/naasaul" target="_blank"
+            >Veja meu Github</a
+          >
+          <!--tag target= _blank usada para quando o usuario clicar no botão, ser direcionado para outra aba na web-->
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/naasaul" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/deborah-palavicini-820711b6/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.youtube.com/channel/UC-XDyQqtZn1k49ps-4X6rSw"
+          target="_blank"
+        >
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com ♥ por
+        <a href="https://www.linkedin.com/in/deborah-palavicini-820711b6/"
+          >Palavicini</a
+        >
+      </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
